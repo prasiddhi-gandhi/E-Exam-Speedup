@@ -1,0 +1,211 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            display data from database
+        </title>
+        <style>
+            table {
+                width: 1000px;
+                border-collapse: collapse;
+                border: 1px solid black;
+            }
+            td,
+            th {
+                padding: 10px;
+                font-size: 20px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="table">
+                <table>
+                    <tr>
+                        <th> Name</th>
+                        <th> Roll No </th>
+                        <th> Machine Learning </th>
+                        <th> Software Engineering </th>
+                        <th> Cryptography </th>
+                        <th> Computer Graphics </th>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                        <td contenteditable="true"> 60 </td>
+
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Tommy </td>
+                        <td contenteditable="true"> 50 </td>
+                        <td contenteditable="true"> 70</td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> rock</td>
+                        <td contenteditable="true"> 25 </td>
+                        <td contenteditable="true"> 5th </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> josua</td>
+                        <td contenteditable="true"> 75 </td>
+                        <td contenteditable="true"> 10th </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"> Robert </td>
+                        <td contenteditable="true"> 100 </td>
+                        <td contenteditable="true"> 1st </td>
+                        <td contenteditable="true"> 70 </td>
+                        <td contenteditable="true"> 80 </td>
+                        <td contenteditable="true"> 90 </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <h2 class="my-4" style="margin-left: 500px;"><form action="javascript:sendmail()" method="post"><button type="submit">Notify</button></form></h2>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+        <script>
+            // these are inbuilt function used and not for private use only anyone can use them
+            $('#table').SetEditable({
+                // here you are able to write code if you want to add new row
+            });
+            //if you to alert or do something after edit, delete then use following functions
+            onEdit: function() { }, //Edit event
+            onDelete: function() { }, //Delete event
+            onAdd: function() { } //Add event
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+        <script>
+        
+        
+            function sendmail()
+        {
+            
+            // var name = $('#Name').val();
+            // var email = $('#Sender').val();
+            // var subject = $('#Subject').val();
+            // var message = $('#Message').val();
+        
+            // var body = $('#body').val();
+        
+            var Body='MST marks have been been uploaded. Please check.';
+            //console.log(name, phone, email, message);
+        
+            Email.send({
+                Host : "smtp.elasticemail.com"	,
+                Username : "jainprasiddhi175@gmail.com",
+                Password : "A63597A4860FB756BDD7DE39C77C507DCC2D",
+                To: 'sejaljain20285@acropolis.in , purvisolanki20695@acropolis.in',
+                From: "jainprasiddhi175@gmail.com",
+                Subject: "Regarding MST Marks.",
+                Body: Body
+            }).then(
+                message =>{
+                    //console.log (message);
+                    if(message=='OK'){
+                    alert('Notification sent.');
+                    }
+                    else{
+                        console.error (message);
+                        alert('There is error at sending message. ')
+                        
+                    }
+        
+                }
+            );
+        
+        
+        
+        }
+        
+        
+        </script>
+    </body>
+</html>
